@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+    <img class='portrait' src = 'img\Photo.JPG'>
+    <p>Hi it's me {{name}} !!</p>
+    <p> Created this web application based on NodeJS to forecast the weather of a particular location. The geocode API, which is integrated into the application using the request node module, can be used by the user to provide the forecasting details.</p>
+    </div>
+    
+    {{>footer}}
+</body>
+</html>
